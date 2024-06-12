@@ -1,0 +1,93 @@
+
+
+.titulo {
+font-family: "Josefin Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: weight;
+font-style: normal;
+display: flex;
+justify-content: center;
+color: #788AA3;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#cad0d7 
+}
+
+.section-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 150rem; /* Ajustable */
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
+    background-color: #f0f0f0;; 
+    border-radius: 10px; 
+}
+
+.form-control {
+    display: flex;
+    gap: 150px; /* Espacio entre el input y el botón */
+}
+
+input[type="text"] {
+    flex: 1; /* Hace que el input tome todo el espacio disponible */
+    padding: 8px;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 50px;
+    background-color: #8ACB88;
+}
+
+.contenedor-lista {
+    width: 100%; /* Hace que el contenedor de la lista tome todo el ancho disponible */
+    margin-top: 20px;
+}
+
+.item-lista {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.btn-contenedor {
+    display: flex;
+    gap: 10px;
+}
+
+.alerta {
+    color: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    text-align: center;
+    display: none; /* Inicialmente oculto */
+}
+
+.alerta-exito {
+    background-color: green;
+    display: block; 
+}
+
+.alerta-peligro {
+    background-color: red;
+    display: block;
+    max-width: max-content; 
+}
+
+.oculto { 
+    display: none;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Desarrollador FrontEnd apasionado por la creación de experiencias digitales impactantes. Experto en tecnologías web como HTML, CSS, JavaScript y frameworks modernos. ¡Convierto ideas en realidad digital!">
+    <meta name="keywords" content="HTML, CSS,JavaScript, Desarrollador FrontEnd,, Responsive design, proyectos web , Redes sociales, whatsapp, comunicacion">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <title>Lista de Compras</title>
+</head>
+<body>
+    <section class="section-center">
+        <!--Formulario-->
+        <form class="lista-form">
+            <p class="alerta"></p>
+            <h3 class="titulo">Lista de compras</h3>
+            <div class="form-control">
+                <input type="text" id="lista" placeholder="ej:fideos,arroz,tomate">
+                <button type="submit" class="submit-btn">
+                    Agregar
+                </button>
+            </div>
+        </form>
+        <div class="contenedor-lista">
+            <div class="carrito-lista">
+                <article class="item-lista">
+                    <p class="titulo">item</p>
+                    <div class="btn-contenedor">
+                        <button type="button" class="editar-btn">
+                            <i class="editar"></i>
+                        </button>
+                        <button type="button" class="borrar-btn">
+                            <i class="borrar"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+
+            <button type="boton" class="limpiar-btn">Limpiar lista</button>
+        </div>
+
+    </section>
+    
+</body>
+
+<script src="main.js/main.js"></script>
+</html>
